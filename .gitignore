@@ -73,6 +73,8 @@ crashlytics-build.properties
 
 # OpenAI APIKEY
 /Assets/Key/*
+/Assets/Key.meta
 
 # Font
 /Assets/Fonts/*
+/Assets/Fonts.meta
