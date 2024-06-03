@@ -78,3 +78,7 @@ crashlytics-build.properties
 # Font
 /Assets/Fonts/*
 /Assets/Fonts.meta
+
+#main logic
+/Assets/Scripts/SystemController.cs
+/Assets/Scripts/SystemController.cs.meta
