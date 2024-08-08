@@ -39,6 +39,8 @@ namespace ForChatGPT
     {
         public string summary;
         public string nextscene;
+        public string location;
+        public string keyitem;
     }
     
 }

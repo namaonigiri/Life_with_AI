@@ -79,9 +79,9 @@ public class ChatHandler : MonoBehaviour
     private ChatGPTPayload GetPayload(List<ChatGPTMessageModel> messageList)
     {
         var payload = new ChatGPTPayload();
-        payload.model = "gpt-4-1106-preview";
+        payload.model = "gpt-4o";
         payload.messages = messageList;
-        payload.response_format = new Dictionary<string, string> {{"type", "json_object"}};
+        //payload.response_format = new Dictionary<string, string> {{"type", "json_object"}};
         return payload;
     }
 
